@@ -1,0 +1,35 @@
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.list-inline {
+  list-style: none;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: 2px solid green;
+  border-radius: 3px;
+  box-shadow: 3px 3px 4px rgba(0,0,0,0.2);
+  margin: 5px;
+  font-family: Arial;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+}
+
+ul.list-inline {
+  padding: 0px;
+}
+
+h1, p {
+  font-family: Arial;
+}
+
+.input {
+  display: flex;
+  width: 100%;
+
+}
